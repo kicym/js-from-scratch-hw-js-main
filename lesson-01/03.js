@@ -5,4 +5,16 @@
 */
 
 // your code
-let sum
+let sum = 0;
+let step = 1
+
+
+while (step <= 20) {
+    if (step % 2 === 1) {
+        sum = sum + step;
+    }
+
+
+    step++;
+}
+console.log(sum);
