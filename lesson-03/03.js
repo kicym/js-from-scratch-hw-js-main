@@ -9,5 +9,3 @@ function findLargest(a, b , c) {
         return c
     }
 }
-let resultR = findLargest(4, 8, 4)
-console.log(resultR)
