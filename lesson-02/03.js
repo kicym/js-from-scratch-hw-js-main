@@ -21,3 +21,4 @@ if (score <= 49 && score >= 0) {
 }
 console.log(grade)
 
+
