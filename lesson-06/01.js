@@ -29,5 +29,5 @@ const filter = (array, callback) => {
         callback(element, index)
     }
 }
-filter(array, (element, index) => console.log(`${element}: ${index}`))
+
 
