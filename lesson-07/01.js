@@ -26,7 +26,7 @@ const button2 = document.getElementById("next-button")
 
 
 button1.addEventListener("click", function () {
-  currentImage = (currentImage + 1) % WEB_TECH_IMAGES.length;
+  currentImage = (currentImage - 1 + WEB_TECH_IMAGES.length) % WEB_TECH_IMAGES.length;
   imageElement.src = WEB_TECH_IMAGES[currentImage]
 })
 
@@ -34,3 +34,4 @@ button2.addEventListener("click", function () {
   currentImage = (currentImage +1) % WEB_TECH_IMAGES.length;
   imageElement.src = WEB_TECH_IMAGES[currentImage]
 })
+
